@@ -2,7 +2,7 @@
          font-family: "GothamBold";
          src: url("GothamBold.ttf"); /*this path indicates that the .ttf file is in the folder called font*/
         }
-
+        /*Basic information about the whole webpage, adjusting the font and background color*/
          body {
          margin: 0;
          padding: 0;
@@ -10,6 +10,8 @@
          background-color: rgb(88, 6, 140);
          }
 
+         /*Editing the heading, making it sticky, changing the 
+         background color, font size and positioning the text in the center*/
          h1 {
          text-align: center;
          justify-content: center; 
@@ -25,19 +27,21 @@
          font-size: 40px;
          }
 
+         /*Information about the anchors, how they should react in different situations
+          for example when we hover over them or click them*/
          a:link { text-decoration: none; color:rgb(88, 6, 140)} 
          a:visited {color: rgb(88, 6, 140)} 
          a:hover {color:white;} 
          a:active {color:rgb(88, 6, 140)} 
 
+         /*Small adjustments to the first part of the page, centering it*/
          .Page1 {
           display: flex;
           align-items: center;
           justify-content: center;
          }
          
-        
-
+        /*Centering the text, aligning content in the middle and making text white*/
          .Page2 {
          font-weight: bold;
          font-size: 50px;
@@ -47,13 +51,17 @@
          align-items: center;
          }
 
-
+        /*Similar to page 2*/
          .Page3 {
           font-weight: bold;
          font-size: 50px;
          text-align: center;   
          color: white;   
          }
+         /*A little bit more work than the other pages, 
+         creating a grid so i can place the text and photos next to eachother, 
+         some padding from both sides and a gap between the text and the pictures,
+         little editiong on the text and the pictures, making them round*/
 
          .Aboutus {
           padding-left: 30vw;
@@ -77,8 +85,7 @@
         color: white;
               }
 
-      
-
+         /*Page 4 not finished*/
          .Page4 {
          text-align: center;
          font-weight: bold;
@@ -91,9 +98,8 @@
           padding-right: 15vw;
           display: inline-block;
          }
-         #big {
           
-         }
+         
          #bigtext
          {
           padding-top: 25vw;
@@ -116,13 +122,8 @@
 
          }
 
-         #message {
 
-         }
-
-         .text{
-          color: rgb(255,255,255, .4);
-         }
+         
 
          
 

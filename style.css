@@ -1,0 +1,132 @@
+         @font-face {
+         font-family: "GothamBold";
+         src: url("GothamBold.ttf"); /*this path indicates that the .ttf file is in the folder called font*/
+        }
+
+         body {
+         margin: 0;
+         padding: 0;
+         font-family: "GothamBold";
+         background-color: rgb(88, 6, 140);
+         }
+
+         h1 {
+         text-align: center;
+         justify-content: center; 
+         align-items: center;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         height: 5vh;
+         position: sticky;
+         top: 0;
+         background-color: rgb(255,255,255, .4) ;
+         color: white;
+         font-size: 40px;
+         }
+
+         a:link { text-decoration: none; color: white;} 
+         a:visited {color: rgb(88, 6, 140)} 
+         a:hover {color:white;} 
+         a:active {color:white;} 
+
+         .Page1 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         }
+         
+        
+
+         .Page2 {
+         font-weight: bold;
+         font-size: 50px;
+         text-align: center;   
+         color: white;   
+         justify-content: center; 
+         align-items: center;
+         }
+
+
+         .Page3 {
+          font-weight: bold;
+         font-size: 50px;
+         text-align: center;   
+         color: white;   
+         }
+
+         .Aboutus {
+          padding-left: 30vw;
+          padding-right: 30vw;
+          display: grid;
+          align-items: center;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 70px;
+               }
+
+        .Aboutpicture {
+          margin-top: 40px;
+          border-radius: 100%;
+          overflow: hidden;
+        
+                  }
+
+        .abouttext {
+        text-align: left;
+        font-size: 25px;
+        color: white;
+              }
+
+      
+
+         .Page4 {
+         text-align: center;
+         font-weight: bold;
+         font-size: 50px; 
+         color: white;   
+         }
+
+         .fields {
+          padding-left: 15vw;
+          padding-right: 15vw;
+          display: inline-block;
+         }
+         #big {
+          
+         }
+         #bigtext
+         {
+          padding-top: 25vw;
+          text-align: center;
+          color: white;
+         }
+
+         #name {
+          margin-top: 0;
+          vertical-align: top;
+         }
+
+         #surname{
+          margin-top: 0;
+          vertical-align: top;
+          
+         }
+         #email {
+          margin-top: 50px;
+
+         }
+
+         #message {
+
+         }
+
+         .text{
+          color: rgb(255,255,255, .4);
+         }
+
+         
+
+
+         
+
+        

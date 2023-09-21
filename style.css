@@ -64,12 +64,12 @@
          little editiong on the text and the pictures, making them round*/
 
          .Aboutus {
-          padding-left: 30vw;
-          padding-right: 30vw;
+          padding-left: 10vw;
+          padding-right: 10vw;
           display: grid;
           align-items: center;
-          grid-template-columns: 1fr 1fr;
-          column-gap: 70px;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          column-gap: 40px;
                }
 
         .Aboutpicture {
